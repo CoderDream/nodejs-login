@@ -65,3 +65,9 @@ mocha -u tdd -R spec test/zombie.js
 ```
 
 ![](https://github.com/CoderDream/nodejs-login/blob/master/snapshot/zombie_03.png)
+
+参考：
+1. [Node.js学习（四）——实现用户登录功能](https://blog.csdn.net/flygoa/article/details/52767076)
+2. [使用Zombie.js进行Web自动化测试](https://www.jianshu.com/p/0a0af07d95d1)
+3. [nodejs实现登录注册系统](https://blog.csdn.net/cramon/article/details/54983591)
+4. [用NodeJS完成简单的身份验证](https://blog.csdn.net/kuangruike/article/details/52607141)
