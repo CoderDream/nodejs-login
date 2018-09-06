@@ -63,7 +63,7 @@ router.post('/login', function (req, res, next) {
         res.send('密码不能为空');
         return;
     }
-    //查库比较
+    //硬编码比较
     if('user' === name && '123' === pwd) {
         console.log('登录成功');
         //返回结果
