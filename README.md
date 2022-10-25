@@ -2,6 +2,32 @@
 
 基于node.js 的 Express工程，使用mocha、zombie 进行跨页测试。
 
+
+
+### 启动项目
+
+```
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+PS D:\04_GitHub\nodejs\nodejs-login> npm start
+> nodejs-login@0.0.0 start D:\04_GitHub\nodejs\nodejs-login
+> node ./bin/www
+GET / 200 8.568 ms - 1219
+GET /stylesheets/style.css 200 9.714 ms - 119
+GET /stylesheets/bootstrap-theme.css 200 5.966 ms - 26719
+GET /stylesheets/bootstrap.css 200 9.535 ms - 154230
+GET /javascripts/bootstrap.js 200 6.099 ms - 71253
+GET /javascripts/jquery.js 200 9.004 ms - 282988
+GET /favicon.ico 404 1.953 ms - 1026
+登录成功
+POST /login 200 21.512 ms - 43
+```
+
+
+
+ ![image-20221025095625718](https://github.com/CoderDream/nodejs-login/blob/master/snapshot/image-20221025095625718.png)
+
+
+
 ## 登陆页面 ##
 
 
